@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/bsh.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/ckez.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-collections.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-digester.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-io.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/fckez.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/Filters.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gmapsz.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/groovy.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/itext.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/jasperreports.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/jcommon.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/jfreechart.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/jruby.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/js.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/jxl.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/jython.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/poi.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/timelinez.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/timeplotz.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/zcommon.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/zcommons-el.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/zhtml.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/zk.jar" sourcepath="/ZK_source"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/zkex.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/zkmax.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/zkplus.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/zml.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/zul.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/zuljsp.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/zweb.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

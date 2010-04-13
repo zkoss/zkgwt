@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module >
+
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+
+  <!-- Inherit the default GWT style sheet.  You can change       -->
+  <!-- the theme of your GWT application by uncommenting          -->
+  <!-- any one of the following lines.                            -->
+  <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+   
+   <!--   -->
+  <script src="/zkau/web/js/zk.wpd"/>
+  <script src="/zkau/web/js/zk.zuml.wpd"/>
+  <script src="/zkau/web/js/zul.wpd"/>
+  <script src="/zkau/web/js/zul.wgt.wpd"/>
+  <script src="/zkau/web/js/zk.fmt.wpd"/>
+  <script src="/zkau/web/js/zul.inp.wpd"/>
+  <script src="/zkau/web/js/zul.wnd.wpd"/>
+  
+  
+  <stylesheet src="/zkau/web/zul/css/zk.wcs"/>
+
+    <!-- 
+  <script src="http://localhost:8888/zkau/web/js/zk.wpd"/>
+  <script src="http://localhost:8888/zkau/web/js/zk.zuml.wpd"/>
+  <script src="http://localhost:8888/zkau/web/js/zul.wpd"/>
+  <stylesheet src="http://localhost:8888/zkau/web/zul/css/zk.wcs"/>
+ 	-->
+ 	
+    <!--
+  <script src="http://www.zkoss.org/zkdemo/zkau/web/js/zk.wpd"/>
+  <script src="http://www.zkoss.org/zkdemo/zkau/web/js/zk.zuml.wpd"/>
+  <script src="http://www.zkoss.org/zkdemo/zkau/web/js/zul.wpd"/>
+  <stylesheet src="http://www.zkoss.org/zkdemo/zkau/web/zul/css/zk.wcs"/>
+     --> 
+  
+  <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+	
+  <!-- Other module inherits                                      -->
+
+  <!-- Specify the app entry point class.                         -->
+
+  <!-- Specify the paths for translatable code                    -->
+  <source path='client'/>
+
+</module>

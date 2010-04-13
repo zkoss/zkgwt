@@ -1,0 +1,20 @@
+
++. Rendering
+	
++. properties setter/getter
+	
+	
+	
++. Component Hierarchy
+	
+
++. Event Handling and modeling
+	Genuine Event Listening (like old ZK!)
+	
++. Code Generating possibility
+	1. Event Handling
+	2. 1~2 more components
+	3. ZK in ZK.
+	4. Code Generation
+
+
