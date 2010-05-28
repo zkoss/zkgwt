@@ -23,15 +23,15 @@ public class UploadManager extends org.zkoss.gwt.client.zul.wgt.Popup{
 	public native void updateFile(org.zkoss.gwt.client.zul.Uploader uplder, int val, int total)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.updateFile(uplder, val, total);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul//Upload.js line:[455]
+	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul//Upload.js line:[458]
 	
 	public native void removeFile(org.zkoss.gwt.client.zul.Uploader uplder)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.removeFile(uplder);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul//Upload.js line:[468]
+	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul//Upload.js line:[471]
 	
 	public native void open(org.zkoss.gwt.client.zk.Widget wgt, String position)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.open(wgt, position);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul//Upload.js line:[486]
+	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul//Upload.js line:[489]
 }

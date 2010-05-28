@@ -13,5 +13,5 @@ public class Macro extends org.zkoss.gwt.client.zk.Widget{
 	public native void redraw(Widget[] out)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.redraw(out);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zk/src/archive/web/js/zk//widget.js line:[4036]
+	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zk/src/archive/web/js/zk//widget.js line:[4106]
 }
