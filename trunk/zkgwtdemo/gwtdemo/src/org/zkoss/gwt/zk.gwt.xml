@@ -9,17 +9,61 @@
   <!-- any one of the following lines.                            -->
   <inherits name='com.google.gwt.user.theme.standard.Standard'/>
    
-   <!--   -->
+	<!-- To speed up compiling for development                        -->
+	<set-property name="user.agent" value="gecko"/>
+
+<!-- used for develope mode -->      
   <script src="/zkau/web/js/zk.wpd"/>
   <script src="/zkau/web/js/zk.zuml.wpd"/>
-  <script src="/zkau/web/js/zul.wpd"/>
-  <script src="/zkau/web/js/zul.wgt.wpd"/>
   <script src="/zkau/web/js/zk.fmt.wpd"/>
+  
+  <script src="/zkau/web/js/zul.wpd"/>
+  <script src="/zkau/web/js/zul.box.wpd"/>
+  <script src="/zkau/web/js/zul.db.wpd"/>
+  <script src="/zkau/web/js/zul.grid.wpd"/>
   <script src="/zkau/web/js/zul.inp.wpd"/>
+  <script src="/zkau/web/js/zul.med.wpd"/>
+  <script src="/zkau/web/js/zul.sel.wpd"/>
+  <script src="/zkau/web/js/zul.tab.wpd"/>
+  <script src="/zkau/web/js/zul.utl.wpd"/>
+  <script src="/zkau/web/js/zul.wgt.wpd"/>
   <script src="/zkau/web/js/zul.wnd.wpd"/>
+  
+  <script src="/zkau/web/js/zkex.layout.wpd"/>
+  <script src="/zkau/web/js/zkex.menu.wpd"/>
+  <script src="/zkau/web/js/zkex.inp.wpd"/>  
+  <script src="/zkau/web/js/zkex.grid.wpd"/>
+
+  <script src="/zkau/web/js/zkmax.layout.wpd"/>
+  
   
   
   <stylesheet src="/zkau/web/zul/css/zk.wcs"/>
+  <stylesheet src="/zkau/web/zul/css/norm.css.dsp"/>  
+  <stylesheet src="/zkau/web/zul/css/ext.css.dsp"/>
+
+
+<!-- Test to see if unit test ok -->
+<!--  
+<servlet path="/zkautemp" class="org.zkoss.zk.ui.http.MyDHtmlLayoutServlet"/>
+
+<servlet path="/zkau" class="org.zkoss.zk.au.http.DHtmlUpdateServlet"/>
+
+	
+	<script src="/zk/zkautemp/web/js/zk.wpd"/>	
+  <script src="/zk/zkau/web/js/zk.wpd"/>
+  <script src="/zk/zkau/web/js/zk.zuml.wpd"/>
+  <script src="/zk/zkau/web/js/zul.wpd"/>
+  <script src="/zk/zkau/web/js/zul.wgt.wpd"/>
+  <script src="/zk/zkau/web/js/zk.fmt.wpd"/>
+  <script src="/zk/zkau/web/js/zul.inp.wpd"/>
+  <script src="/zk/zkau/web/js/zul.wnd.wpd"/>
+  
+  
+  
+  <stylesheet src="/zk/zkau/web/zul/css/zk.wcs"/>
+
+-->
 
     <!-- 
   <script src="http://localhost:8888/zkau/web/js/zk.wpd"/>
@@ -41,6 +85,10 @@
   <!-- Other module inherits                                      -->
 
   <!-- Specify the app entry point class.                         -->
+	<!-- temp, for compile                         -->
+	<!-- 
+	<entry-point class='org.zkoss.gwt.client.Peterdemo' />
+	-->
 
   <!-- Specify the paths for translatable code                    -->
   <source path='client'/>
