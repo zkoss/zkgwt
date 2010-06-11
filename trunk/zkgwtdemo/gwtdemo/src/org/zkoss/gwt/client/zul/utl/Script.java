@@ -13,30 +13,30 @@ public class Script extends org.zkoss.gwt.client.zk.Widget{
 	public native void setContent(String content)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setContent(content);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/utl//Script.js line:[29]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/utl/Script.js line:[29]
 	
 	public native String getContent()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getContent();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/utl//Script.js line:[22]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/utl/Script.js line:[22]
 	
 	public native void setSrc(String src)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setSrc(src);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/utl//Script.js line:[46]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/utl/Script.js line:[46]
 	
 	public native String getSrc()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getSrc();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/utl//Script.js line:[42]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/utl/Script.js line:[42]
 	
 	public native void setCharset(String charset)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setCharset(charset);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/utl//Script.js line:[68]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/utl/Script.js line:[68]
 	
 	public native String getCharset()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getCharset();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/utl//Script.js line:[62]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/utl/Script.js line:[62]
 }

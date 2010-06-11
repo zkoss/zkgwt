@@ -13,15 +13,15 @@ public class PickerPop extends org.zkoss.gwt.client.zk.Widget{
 	public native void setColor(String hex)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setColor(hex);
-	}-*/; //D:/svn_workingcopy/zkcml/releases/5.0.1/zkex/src/archive/web/js/zkex/inp//Colorpicker.js line:[108]
+	}-*/; //I:/svn/zk5_sf/zkex/src/archive/web/js/zkex/inp/Colorpicker.js line:[108]
 	
 	public native String getColor()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getColor();
-	}-*/; //D:/svn_workingcopy/zkcml/releases/5.0.1/zkex/src/archive/web/js/zkex/inp//Colorpicker.js line:[104]
+	}-*/; //I:/svn/zk5_sf/zkex/src/archive/web/js/zkex/inp/Colorpicker.js line:[104]
 	
 	public native org.zkoss.gwt.client.zkex.inp.Color getNewColor()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getNewColor();
-	}-*/; //D:/svn_workingcopy/zkcml/releases/5.0.1/zkex/src/archive/web/js/zkex/inp//Colorpicker.js line:[116]
+	}-*/; //I:/svn/zk5_sf/zkex/src/archive/web/js/zkex/inp/Colorpicker.js line:[116]
 }

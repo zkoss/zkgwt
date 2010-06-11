@@ -13,5 +13,5 @@ public class Listfoot extends org.zkoss.gwt.client.zul.Widget{
 	public native Listbox getListbox()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getListbox();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/sel//Listfoot.js line:[22]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Listfoot.js line:[22]
 }

@@ -20,10 +20,15 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import org.zkoss.gwt.client.Utils;
 
 import com.google.gwt.core.client.JavaScriptObject;
+import com.google.gwt.json.client.JSONArray;
+import com.google.gwt.json.client.JSONObject;
+import com.google.gwt.json.client.JSONParser;
+import com.google.gwt.json.client.JSONValue;
 import com.google.gwt.user.client.Element;
 import com.google.gwt.user.client.ui.RootPanel;
 
@@ -136,9 +141,24 @@ public abstract class Widget extends com.google.gwt.user.client.ui.Widget {
 	    var wgt = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 	    var thz = this;
 //	    $wnd.zk.log(thz);
+    
 	    var map={};
 	    map[evtName] = function(evt){
+//	    	for(var item in evt){
+//	    		$wnd.zk.log(item,":",evt[item]);	    		
+//	    	}
+//	 	 		
+//			$wnd.zk.log("      evt.data starts:");	 	 		
+//	    	for(var item in evt.data){
+//	    		$wnd.zk.log(item,":",evt.data[item]);	    		
+//	    	}
+//
+//	    	$wnd.temppeter = evt;
+	    	
 	    	thz.@org.zkoss.gwt.client.zk.Widget::fireEvent(Ljava/lang/String;Lcom/google/gwt/core/client/JavaScriptObject;)(evtName, evt);
+	    	//var evt = {'one':'z1','two':'z2'};
+	    	//jsonObjectEvt = @com.google.gwt.json.client.JSONObject::new(Lcom/google/gwt/core/client/JavaScriptObject;)(evt);	    	 
+	    	//thz.@org.zkoss.gwt.client.zk.Widget::fireEvent(Ljava/lang/String;Lcom/google/gwt/json/client/JSONObject;)(evtName, jsonObjectEvt);
 	    };
 	    wgt.listen(  map, -1000);
 	}-*/;
@@ -149,8 +169,47 @@ public abstract class Widget extends com.google.gwt.user.client.ui.Widget {
 	 * @param nEvent
 	 */
 	public void fireEvent(String eventName, JavaScriptObject nEvent){
+	//public void fireEvent(String eventName, JSONObject nEvent){
 		List<EventListener> list = listeners.get(eventName);
+
+		//error?
+		//System.out.println(nEvent.toString());
+		
+		//JavaScriptObject temp =  nEvent.getJavaScriptObject();
+		
+		
+//		Set<String> keys = nEvent.keySet();
+//		for(String key: keys){
+//			System.out.println(key);
+//		}
+//		
+//		JSONValue data = nEvent.get("data");
+//		JSONObject dataJson = data.isObject();
+//		if(dataJson != null){
+//			System.out.println("data not null!!!! should have its keys!!!");
+//		}
+//		Set<String> datakeys = dataJson.keySet();
+//		for(String key: datakeys){
+//			System.out.println(key);			
+//		}
+//		JSONValue items = dataJson.get("items");
+//		System.out.println("before is array");
+//		JSONArray itemarray = items.isArray();
+//		System.out.println("after is array");
+//		if(itemarray != null){
+//			System.out.println("is array and not null");
+//		}
+//		
+//		System.out.println("reference in data:"+dataJson.get("reference"));
+//
+//		
+		
+		//System.out.println("get json"+nEvent.get("one"));
 		Event event = new Event(eventName, nEvent, this);
+		
+		//From Ian, should have extended Event  
+		//Event event = EventFactory.newInstance(eventName);
+		
 		for(EventListener listener : list){
 			listener.onEvent(event);
 		}

@@ -13,25 +13,25 @@ public class Toolbar extends org.zkoss.gwt.client.zul.Widget{
 	public native void setAlign(String align)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setAlign(align);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/wgt//Toolbar.js line:[36]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/wgt/Toolbar.js line:[36]
 	
 	public native String getAlign()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getAlign();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/wgt//Toolbar.js line:[32]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/wgt/Toolbar.js line:[32]
 	
 	public native void setOrient(String orient)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setOrient(orient);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/wgt//Toolbar.js line:[46]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/wgt/Toolbar.js line:[46]
 	
 	public native String getOrient()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getOrient();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/wgt//Toolbar.js line:[42]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/wgt/Toolbar.js line:[42]
 	
 	public native boolean inPanelMold()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.inPanelMold();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/wgt//Toolbar.js line:[59]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/wgt/Toolbar.js line:[59]
 }

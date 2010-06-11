@@ -13,20 +13,20 @@ public class East extends org.zkoss.gwt.client.zul.layout.LayoutRegion{
 	public native String getPosition()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getPosition();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/layout//East.js line:[35]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/layout/East.js line:[37]
 	
 	public native void setHeight(String height)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setHeight(height);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/layout//East.js line:[23]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/layout/East.js line:[25]
 	
 	public native String getSize()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getSize();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/layout//East.js line:[42]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/layout/East.js line:[44]
 	
 	public native void setSize(String size)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setSize(size);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/layout//East.js line:[48]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/layout/East.js line:[50]
 }

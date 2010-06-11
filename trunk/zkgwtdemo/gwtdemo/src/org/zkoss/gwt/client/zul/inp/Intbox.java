@@ -13,5 +13,5 @@ public class Intbox extends org.zkoss.gwt.client.zul.inp.FormatWidget{
 	public native int intValue()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.intValue();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/inp//Intbox.js line:[21]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Intbox.js line:[21]
 }

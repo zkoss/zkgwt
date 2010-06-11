@@ -10,8 +10,18 @@ public class Macro extends org.zkoss.gwt.client.zk.Widget{
 	}-*/;
 
 	
+	public native void setEnclosingTag(String tag)/*-{
+		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
+		widget.setEnclosingTag(tag);
+	}-*/; //I:/svn/zk5_sf/zk/src/archive/web/js/zk/widget.js line:[4416]
+	
+	public native String getEnclosingTag()/*-{
+		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
+		return widget.getEnclosingTag();
+	}-*/; //I:/svn/zk5_sf/zk/src/archive/web/js/zk/widget.js line:[4411]
+	
 	public native void redraw(Widget[] out)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.redraw(out);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zk/src/archive/web/js/zk//widget.js line:[4106]
+	}-*/; //I:/svn/zk5_sf/zk/src/archive/web/js/zk/widget.js line:[4425]
 }

@@ -13,20 +13,20 @@ public class Footer extends org.zkoss.gwt.client.zul.LabelImageWidget{
 	public native void setSpan(int span)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setSpan(span);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/grid//Footer.js line:[30]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/grid/Footer.js line:[30]
 	
 	public native int getSpan()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getSpan();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/grid//Footer.js line:[26]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/grid/Footer.js line:[26]
 	
 	public native org.zkoss.gwt.client.zul.grid.Grid getGrid()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getGrid();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/grid//Footer.js line:[39]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/grid/Footer.js line:[39]
 	
 	public native org.zkoss.gwt.client.zul.grid.Column getColumn()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getColumn();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/grid//Footer.js line:[45]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/grid/Footer.js line:[45]
 }

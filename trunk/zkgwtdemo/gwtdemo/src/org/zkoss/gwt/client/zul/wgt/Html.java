@@ -13,10 +13,10 @@ public class Html extends org.zkoss.gwt.client.zul.Widget{
 	public native void setContent(String content)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setContent(content);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/wgt//Html.js line:[33]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/wgt/Html.js line:[33]
 	
 	public native String getContent()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getContent();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/wgt//Html.js line:[27]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/wgt/Html.js line:[27]
 }

@@ -13,5 +13,5 @@ public class PalettePop extends org.zkoss.gwt.client.zk.Widget{
 	public native void setColor(String color)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setColor(color);
-	}-*/; //D:/svn_workingcopy/zkcml/releases/5.0.1/zkex/src/archive/web/js/zkex/inp//Colorpalette.js line:[82]
+	}-*/; //I:/svn/zk5_sf/zkex/src/archive/web/js/zkex/inp/Colorpalette.js line:[82]
 }

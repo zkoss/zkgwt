@@ -13,10 +13,10 @@ public class Panelchildren extends org.zkoss.gwt.client.zul.Widget{
 	public native void setHeight(String height)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setHeight(height);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/wnd//Panelchildren.js line:[24]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/wnd/Panelchildren.js line:[24]
 	
 	public native void setWidth(String width)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setWidth(width);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/wnd//Panelchildren.js line:[29]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/wnd/Panelchildren.js line:[29]
 }
