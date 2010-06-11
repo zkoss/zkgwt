@@ -13,5 +13,5 @@ public class Tabs extends org.zkoss.gwt.client.zul.Widget{
 	public native Tabbox getTabbox()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getTabbox();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/tab//Tabs.js line:[23]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/tab/Tabs.js line:[23]
 }

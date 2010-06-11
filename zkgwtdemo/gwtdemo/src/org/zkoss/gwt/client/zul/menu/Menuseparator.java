@@ -13,10 +13,10 @@ public class Menuseparator extends org.zkoss.gwt.client.zul.Widget{
 	public native boolean isPopup()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.isPopup();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/menu//Menuseparator.js line:[21]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/menu/Menuseparator.js line:[21]
 	
 	public native org.zkoss.gwt.client.zul.menu.Menubar getMenubar()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getMenubar();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/menu//Menuseparator.js line:[27]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/menu/Menuseparator.js line:[27]
 }

@@ -13,10 +13,10 @@ public class Tablelayout extends org.zkoss.gwt.client.zul.Widget{
 	public native void setColumns(int columns)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setColumns(columns);
-	}-*/; //D:/svn_workingcopy/zkcml/releases/5.0.1/zkmax/src/archive/web/js/zkmax/layout//Tablelayout.js line:[29]
+	}-*/; //I:/svn/zk5_sf/zkmax/src/archive/web/js/zkmax/layout/Tablelayout.js line:[29]
 	
 	public native int getColumns()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getColumns();
-	}-*/; //D:/svn_workingcopy/zkcml/releases/5.0.1/zkmax/src/archive/web/js/zkmax/layout//Tablelayout.js line:[25]
+	}-*/; //I:/svn/zk5_sf/zkmax/src/archive/web/js/zkmax/layout/Tablelayout.js line:[25]
 }

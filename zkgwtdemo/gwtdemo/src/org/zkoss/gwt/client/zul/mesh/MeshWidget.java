@@ -13,75 +13,85 @@ public class MeshWidget extends org.zkoss.gwt.client.zul.Widget{
 	public native void setPagingPosition(String pagingPosition)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setPagingPosition(pagingPosition);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/mesh//MeshWidget.js line:[46]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[47]
 	
 	public native String getPagingPosition()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getPagingPosition();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/mesh//MeshWidget.js line:[41]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[42]
 	
 	public native void setSizedByContent(boolean byContent)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setSizedByContent(byContent);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/mesh//MeshWidget.js line:[62]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[63]
 	
 	public native boolean isSizedByContent()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.isSizedByContent();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/mesh//MeshWidget.js line:[55]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[56]
+	
+	public native void setAutopaging(boolean autopaging)/*-{
+		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
+		widget.setAutopaging(autopaging);
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[83]
+	
+	public native boolean isAutopaging()/*-{
+		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
+		return widget.isAutopaging();
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[75]
 	
 	public native void setModel(boolean inModel)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setModel(inModel);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/mesh//MeshWidget.js line:[78]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[95]
 	
 	public native boolean isModel()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.isModel();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/mesh//MeshWidget.js line:[74]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[91]
 	
 	public native void setInnerWidth(String innerWidth)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setInnerWidth(innerWidth);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/mesh//MeshWidget.js line:[90]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[107]
 	
 	public native String getInnerWidth()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getInnerWidth();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/mesh//MeshWidget.js line:[83]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[100]
 	
 	public native int getPageSize()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getPageSize();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/mesh//MeshWidget.js line:[113]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[130]
 	
 	public native void setPageSize(int pageSize)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setPageSize(pageSize);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/mesh//MeshWidget.js line:[120]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[137]
 	
 	public native int getPageCount()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getPageCount();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/mesh//MeshWidget.js line:[127]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[144]
 	
 	public native int getActivePage()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getActivePage();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/mesh//MeshWidget.js line:[135]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[152]
 	
 	public native void setActivePage(int activePage)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setActivePage(activePage);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/mesh//MeshWidget.js line:[142]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[159]
 	
 	public native boolean inPagingMold()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.inPagingMold();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/mesh//MeshWidget.js line:[149]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[166]
 	
 	public native void calcSize()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.calcSize();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/mesh//MeshWidget.js line:[434]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[530]
 }

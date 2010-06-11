@@ -13,15 +13,15 @@ public class Errorbox extends org.zkoss.gwt.client.zul.wgt.Popup{
 	public native void show(org.zkoss.gwt.client.zk.Widget owner, String msg)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.show(owner, msg);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/inp//Errorbox.js line:[24]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Errorbox.js line:[24]
 	
 	public native void destroy()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.destroy();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/inp//Errorbox.js line:[37]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Errorbox.js line:[37]
 	
 	public native void onScroll(org.zkoss.gwt.client.zk.Widget wgt)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.onScroll(wgt);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/inp//Errorbox.js line:[80]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Errorbox.js line:[80]
 }

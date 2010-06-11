@@ -13,20 +13,20 @@ public class Treefooter extends org.zkoss.gwt.client.zul.LabelImageWidget{
 	public native void setSpan(int span)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setSpan(span);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/sel//Treefooter.js line:[31]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treefooter.js line:[31]
 	
 	public native int getSpan()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getSpan();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/sel//Treefooter.js line:[27]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treefooter.js line:[27]
 	
 	public native Tree getTree()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getTree();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/sel//Treefooter.js line:[40]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treefooter.js line:[40]
 	
 	public native Treecol getTreecol()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getTreecol();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/sel//Treefooter.js line:[46]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treefooter.js line:[46]
 }

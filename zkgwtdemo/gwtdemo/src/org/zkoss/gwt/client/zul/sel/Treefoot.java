@@ -13,5 +13,5 @@ public class Treefoot extends org.zkoss.gwt.client.zul.Widget{
 	public native Tree getTree()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getTree();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/sel//Treefoot.js line:[22]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treefoot.js line:[22]
 }

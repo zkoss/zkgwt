@@ -13,5 +13,5 @@ public class Borderlayout extends org.zkoss.gwt.client.zul.Widget{
 	public native void resize()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.resize();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/layout//Borderlayout.js line:[110]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/layout/Borderlayout.js line:[119]
 }

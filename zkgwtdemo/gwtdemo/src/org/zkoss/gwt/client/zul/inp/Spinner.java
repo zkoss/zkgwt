@@ -13,55 +13,55 @@ public class Spinner extends org.zkoss.gwt.client.zul.inp.FormatWidget{
 	public native void setStep(int step)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setStep(step);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/inp//Spinner.js line:[28]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Spinner.js line:[28]
 	
 	public native int getStep()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getStep();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/inp//Spinner.js line:[25]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Spinner.js line:[25]
 	
 	public native void setButtonVisible(boolean visible)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setButtonVisible(visible);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/inp//Spinner.js line:[36]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Spinner.js line:[36]
 	
 	public native boolean isButtonVisible()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.isButtonVisible();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/inp//Spinner.js line:[32]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Spinner.js line:[32]
 	
 	public native void setMin(int min)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setMin(min);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/inp//Spinner.js line:[63]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Spinner.js line:[64]
 	
 	public native int getMin()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getMin();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/inp//Spinner.js line:[60]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Spinner.js line:[61]
 	
 	public native void setMax(int max)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setMax(max);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/inp//Spinner.js line:[70]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Spinner.js line:[71]
 	
 	public native int getMax()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getMax();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/inp//Spinner.js line:[67]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Spinner.js line:[68]
 	
 	public native int intValue()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.intValue();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/inp//Spinner.js line:[82]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Spinner.js line:[83]
 	
 	public native void checkValue()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.checkValue();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/inp//Spinner.js line:[175]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Spinner.js line:[176]
 	
 	public native void syncWidth()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.syncWidth();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/inp//Spinner.js line:[261]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Spinner.js line:[262]
 }

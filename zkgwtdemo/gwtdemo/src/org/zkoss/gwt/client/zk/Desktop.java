@@ -5,6 +5,8 @@ import java.util.*;
 import com.google.gwt.core.client.JavaScriptObject;
 
 public class Desktop extends org.zkoss.gwt.client.zk.Widget{
+	
+	
 	protected native JavaScriptObject create() /*-{
 		return new $wnd.zk.Desktop();
 	}-*/;

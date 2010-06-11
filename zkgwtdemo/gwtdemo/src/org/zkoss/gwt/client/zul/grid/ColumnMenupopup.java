@@ -13,25 +13,25 @@ public class ColumnMenupopup extends org.zkoss.gwt.client.zul.menu.Menupopup{
 	public native void $init()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.$init();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/grid//Columns.js line:[206]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/grid/Columns.js line:[206]
 	
 	public native org.zkoss.gwt.client.zul.menu.Menuitem getAscitem()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getAscitem();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/grid//Columns.js line:[212]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/grid/Columns.js line:[212]
 	
 	public native org.zkoss.gwt.client.zul.menu.Menuitem getDescitem()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getDescitem();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/grid//Columns.js line:[218]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/grid/Columns.js line:[218]
 	
 	public native org.zkoss.gwt.client.zul.menu.Menuitem getGroupitem()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getGroupitem();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/grid//Columns.js line:[224]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/grid/Columns.js line:[224]
 	
 	public native void syncColMenu()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.syncColMenu();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/grid//Columns.js line:[259]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/grid/Columns.js line:[259]
 }

@@ -13,25 +13,25 @@ public class Listgroup extends org.zkoss.gwt.client.zul.sel.Listitem{
 	public native void setOpen(boolean open)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setOpen(open);
-	}-*/; //D:/svn_workingcopy/zkcml/releases/5.0.1/zkex/src/archive/web/js/zkex/sel//Listgroup.js line:[38]
+	}-*/; //I:/svn/zk5_sf/zkex/src/archive/web/js/zkex/sel/Listgroup.js line:[38]
 	
 	public native boolean isOpen()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.isOpen();
-	}-*/; //D:/svn_workingcopy/zkcml/releases/5.0.1/zkex/src/archive/web/js/zkex/sel//Listgroup.js line:[34]
+	}-*/; //I:/svn/zk5_sf/zkex/src/archive/web/js/zkex/sel/Listgroup.js line:[34]
 	
 	public native Widget[] getItems()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getItems();
-	}-*/; //D:/svn_workingcopy/zkcml/releases/5.0.1/zkex/src/archive/web/js/zkex/sel//Listgroup.js line:[48]
+	}-*/; //I:/svn/zk5_sf/zkex/src/archive/web/js/zkex/sel/Listgroup.js line:[48]
 	
 	public native int getItemCount()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getItemCount();
-	}-*/; //D:/svn_workingcopy/zkcml/releases/5.0.1/zkex/src/archive/web/js/zkex/sel//Listgroup.js line:[58]
+	}-*/; //I:/svn/zk5_sf/zkex/src/archive/web/js/zkex/sel/Listgroup.js line:[58]
 	
 	public native String getLabel()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getLabel();
-	}-*/; //D:/svn_workingcopy/zkcml/releases/5.0.1/zkex/src/archive/web/js/zkex/sel//Listgroup.js line:[67]
+	}-*/; //I:/svn/zk5_sf/zkex/src/archive/web/js/zkex/sel/Listgroup.js line:[67]
 }

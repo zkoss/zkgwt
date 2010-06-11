@@ -13,20 +13,20 @@ public class Tabpanel extends org.zkoss.gwt.client.zul.Widget{
 	public native Tabbox getTabbox()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getTabbox();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/tab//Tabpanel.js line:[22]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/tab/Tabpanel.js line:[22]
 	
 	public native Tab getLinkedTab()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getLinkedTab();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/tab//Tabpanel.js line:[41]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/tab/Tabpanel.js line:[41]
 	
 	public native int getIndex()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getIndex();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/tab//Tabpanel.js line:[51]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/tab/Tabpanel.js line:[51]
 	
 	public native boolean isSelected()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.isSelected();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/tab//Tabpanel.js line:[58]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/tab/Tabpanel.js line:[58]
 }

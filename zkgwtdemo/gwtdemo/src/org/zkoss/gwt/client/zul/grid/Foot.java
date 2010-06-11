@@ -13,5 +13,5 @@ public class Foot extends org.zkoss.gwt.client.zul.Widget{
 	public native org.zkoss.gwt.client.zul.grid.Grid getGrid()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getGrid();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/grid//Foot.js line:[20]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/grid/Foot.js line:[20]
 }

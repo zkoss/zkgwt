@@ -13,10 +13,20 @@ public class Style extends org.zkoss.gwt.client.zk.Widget{
 	public native void setSrc(String src)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setSrc(src);
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/utl//Style.js line:[33]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/utl/Style.js line:[33]
 	
 	public native String getSrc()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getSrc();
-	}-*/; //D:/svn_workingcopy/zk1/branches/5.0/zul/src/archive/web/js/zul/utl//Style.js line:[26]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/utl/Style.js line:[26]
+	
+	public native void setMedia(String media)/*-{
+		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
+		widget.setMedia(media);
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/utl/Style.js line:[48]
+	
+	public native String getMedia()/*-{
+		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
+		return widget.getMedia();
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/utl/Style.js line:[41]
 }
