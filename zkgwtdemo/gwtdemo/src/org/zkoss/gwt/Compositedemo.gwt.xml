@@ -4,6 +4,11 @@
 	<!-- Inherit the core Web Toolkit stuff.                        -->
 	<inherits name='com.google.gwt.user.User' />
 
+	<!-- To speed up compiling for development                        -->
+	<set-property name="user.agent" value="gecko"/>
+	
+
+
 	<!-- Inherit the default GWT style sheet.  You can change       -->
 	<!-- the theme of your GWT application by uncommenting          -->
 	<!-- any one of the following lines.                            -->
