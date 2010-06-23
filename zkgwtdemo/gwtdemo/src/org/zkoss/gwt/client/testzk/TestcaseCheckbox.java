@@ -10,8 +10,9 @@ import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseCheckbox {
-	public static Widget getInstance() {
+public class TestcaseCheckbox extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
 		
@@ -36,11 +37,5 @@ public class TestcaseCheckbox {
 		return win;
 	}
 	
-	public static final native String getValue(JavaScriptObject js) /*-{
-		return js.data.value; 
-	}-*/;
-	
-	public static final native String getJSONString(JavaScriptObject js) /*-{				
-		return $wnd.jq.toJSON(js.data); 
-	}-*/;		
+
 }

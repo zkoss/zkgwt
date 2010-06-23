@@ -511,6 +511,24 @@ public abstract class Widget extends com.google.gwt.user.client.ui.Widget {
 	}-*/;
 
     /**
+     * peter, //TODO: 
+     * @return
+     */
+    public native void setWidth(String width)/*-{
+		var wgt = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
+	    wgt.setWidth(width);
+	}-*/;
+
+    /**
+     * peter, //TODO: 
+     * @return
+     */
+    public native void setHeight(String height)/*-{
+		var wgt = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
+	    wgt.setHeight(height);
+	}-*/;
+
+    /**
      * 
      * @return
      */

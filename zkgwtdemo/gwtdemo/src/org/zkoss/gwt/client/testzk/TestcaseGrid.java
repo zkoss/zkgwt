@@ -16,8 +16,9 @@ import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseGrid {
-	public static Widget getInstance() {
+public class TestcaseGrid extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
 /*		
@@ -91,12 +92,5 @@ public class TestcaseGrid {
 				
 		return win;
 	}
-	
-	public static final native String getValue(JavaScriptObject js) /*-{
-		return js.data.value; 
-	}-*/;
-	
-	public static final native String getJSONString(JavaScriptObject js) /*-{				
-		return $wnd.jq.toJSON(js.data); 
-	}-*/;		
+		
 }

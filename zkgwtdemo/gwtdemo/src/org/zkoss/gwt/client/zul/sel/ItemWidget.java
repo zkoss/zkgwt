@@ -48,15 +48,15 @@ public class ItemWidget extends org.zkoss.gwt.client.zul.Widget{
 	public native String getLabel()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getLabel();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/ItemWidget.js line:[84]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/ItemWidget.js line:[83]
 	
 	public native boolean isSelected()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.isSelected();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/ItemWidget.js line:[91]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/ItemWidget.js line:[90]
 	
 	public native org.zkoss.gwt.client.zul.mesh.MeshWidget getMeshWidget()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getMeshWidget();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/ItemWidget.js line:[106]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/ItemWidget.js line:[105]
 }

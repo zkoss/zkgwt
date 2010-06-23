@@ -98,5 +98,5 @@ public class Menuitem extends org.zkoss.gwt.client.zul.LabelImageWidget{
 	public native org.zkoss.gwt.client.zul.menu.Menubar getMenubar()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getMenubar();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/menu/Menuitem.js line:[165]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/menu/Menuitem.js line:[166]
 }

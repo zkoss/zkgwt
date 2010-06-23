@@ -9,8 +9,8 @@ import org.zkoss.gwt.client.zul.wnd.Window;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcasePanel {
-	public static Widget getInstance() {
+public class TestcasePanel extends TestcaseWrapper{
+	public  Widget getInstance() {
 		
 		Window win = new Window();
 
@@ -22,22 +22,21 @@ public class TestcasePanel {
 		</panel>
 */
 		
-		Panel comp = new Panel();
-		//comp.setHeight("100px");
-		//comp.setWidth("200px");
-		comp.setStyle("margin-bottom:10px");
-		comp.setTitle("Panel1");
-		comp.setBorder("normal");
-		comp.setMaximizable(true);
-		comp.setCollapsible(true);
-		
-		Panelchildren c1 = new Panelchildren();
-		Label label = new Label();
-		label.setValue("PanelContent1");
-		comp.add(c1);
-		c1.add(label);
-		
-		win.add(comp);
+		Panel panel_1 = new Panel();
+		win.add(panel_1);
+		panel_1.setBorder("normal");
+		panel_1.setCollapsible(true);
+		panel_1.setHeight("100px");
+		panel_1.setMaximizable(true);
+		panel_1.setStyle("margin-bottom:10px");
+		panel_1.setTitle("Panel1");
+		panel_1.setWidth("200px");
+		Panelchildren panelchildren_11 = new Panelchildren();
+		panel_1.add(panelchildren_11);
+		Label label_111= new Label();
+		panelchildren_11.add(label_111);
+		label_111.setValue("PanelContent1");
+
 				
 		return win;
 	}

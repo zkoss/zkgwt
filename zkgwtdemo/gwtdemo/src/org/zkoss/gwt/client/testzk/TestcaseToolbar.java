@@ -7,8 +7,9 @@ import org.zkoss.gwt.client.zul.wnd.Window;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseToolbar {
-	public static Widget getInstance() {
+public class TestcaseToolbar extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
 

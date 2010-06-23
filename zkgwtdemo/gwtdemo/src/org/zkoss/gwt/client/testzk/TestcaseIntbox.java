@@ -10,8 +10,9 @@ import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseIntbox {
-	public static Widget getInstance() {
+public class TestcaseIntbox extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
 /*		
@@ -33,12 +34,4 @@ public class TestcaseIntbox {
 				
 		return win;
 	}
-
-	public static final native int getValue(JavaScriptObject js) /*-{
-		return parseInt(js.data.value); 
-	}-*/;
-	
-	public static final native String getJSONString(JavaScriptObject js) /*-{				
-		return $wnd.jq.toJSON(js.data); 
-	}-*/;		
 }

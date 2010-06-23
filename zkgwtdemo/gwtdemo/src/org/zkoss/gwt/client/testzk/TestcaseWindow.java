@@ -11,8 +11,9 @@ import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseWindow {
-	public static Widget getInstance() {
+public class TestcaseWindow extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
 
@@ -27,7 +28,7 @@ public class TestcaseWindow {
 		//comp.setBorder("normal");
 		
 		//error, will cause duplicate window
-		//comp.setWidth("200px");
+		comp.setWidth("200px");
 			Label l = new Label();
 			comp.add(l);
 			l.setValue("Hello, Modal! ");
@@ -138,12 +139,6 @@ public class TestcaseWindow {
 		return win;
 	}
 	
-	public static final native String getValue(JavaScriptObject js) /*-{
-		return js.data.value; 
-	}-*/;
-	
-	public static final native String getJSONString(JavaScriptObject js) /*-{				
-		return $wnd.jq.toJSON(js.data); 
-	}-*/;	
+
 	
 }

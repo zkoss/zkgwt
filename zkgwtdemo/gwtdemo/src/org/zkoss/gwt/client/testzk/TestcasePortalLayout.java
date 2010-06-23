@@ -10,8 +10,9 @@ import org.zkoss.gwt.client.zul.wnd.Window;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcasePortalLayout {
-	public static Widget getInstance() {
+public class TestcasePortalLayout extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
 
@@ -33,38 +34,42 @@ public class TestcasePortalLayout {
 	</portallayout>
 */	
 		
-		Portallayout comp = new Portallayout();
-			Portalchildren pc1 = new Portalchildren();
-			pc1.setWidth("30%");
-			comp.add(pc1);
-				Panel pa11 = new Panel();
-				pc1.add(pa11);
-				pa11.setHeight("150px");
-				pa11.setTitle("Google tools");
-					Panelchildren pac111 = new Panelchildren();
-					pa11.add(pac111);
-						Label lab1111 = new Label();
-						pac111.add(lab1111);
-						lab1111.setValue("lab1111");
+		Portallayout portallayout_1 = new Portallayout();
+		win.add(portallayout_1);
+		Portalchildren portalchildren_11 = new Portalchildren();
+		portallayout_1.add(portalchildren_11);
+		portalchildren_11.setWidth("30%");
+		Panel panel_111 = new Panel();
+		portalchildren_11.add(panel_111);
+		panel_111.setHeight("150px");
+		panel_111.setTitle("Google Tools");
+		Panelchildren panelchildren_1111 = new Panelchildren();
+		panel_111.add(panelchildren_1111);
+		Label label_11111= new Label();
+		panelchildren_1111.add(label_11111);
+		label_11111.setValue("...");
+		Panel panel_112 = new Panel();
+		portalchildren_11.add(panel_112);
+		panel_112.setHeight("300px");
+		panel_112.setTitle("LabPixies Clock");
+		Panelchildren panelchildren_1121 = new Panelchildren();
+		panel_112.add(panelchildren_1121);
+		Label label_11211= new Label();
+		panelchildren_1121.add(label_11211);
+		label_11211.setValue("...");
+		Portalchildren portalchildren_12 = new Portalchildren();
+		portallayout_1.add(portalchildren_12);
+		portalchildren_12.setWidth("30%");
+		Panel panel_121 = new Panel();
+		portalchildren_12.add(panel_121);
+		panel_121.setHeight("150px");
+		panel_121.setTitle("Google Tools");
+		Panelchildren panelchildren_1211 = new Panelchildren();
+		panel_121.add(panelchildren_1211);
+		Label label_12111= new Label();
+		panelchildren_1211.add(label_12111);
+		label_12111.setValue("...");
 
-					Panelchildren pac112 = new Panelchildren();
-					pa11.add(pac112);
-						Label lab1121 = new Label();
-						pac112.add(lab1121);
-						lab1121.setValue("lab1121");
-
-			Portalchildren pc2 = new Portalchildren();
-			comp.add(pc2);
-			pc2.setWidth("30%");
-				Panel pa21 = new Panel();
-				pc2.add(pa21);
-					Panelchildren pac211 = new Panelchildren();
-					pa21.add(pac211);
-						Label lab2111 = new Label();
-						pac211.add(lab2111);
-						lab2111.setValue("lab2111");
-						
-		win.add(comp);
 				
 		return win;
 	}

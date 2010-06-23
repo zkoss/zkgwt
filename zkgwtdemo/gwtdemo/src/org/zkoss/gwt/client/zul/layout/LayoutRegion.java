@@ -103,20 +103,20 @@ public class LayoutRegion extends org.zkoss.gwt.client.zul.Widget{
 	public native String getCmargins()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getCmargins();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/layout/LayoutRegion.js line:[236]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/layout/LayoutRegion.js line:[246]
 	
 	public native void setCmargins(String cmargins)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setCmargins(cmargins);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/layout/LayoutRegion.js line:[246]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/layout/LayoutRegion.js line:[256]
 	
 	public native String getMargins()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getMargins();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/layout/LayoutRegion.js line:[265]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/layout/LayoutRegion.js line:[275]
 	
 	public native void setMargins(String margins)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setMargins(margins);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/layout/LayoutRegion.js line:[274]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/layout/LayoutRegion.js line:[284]
 }

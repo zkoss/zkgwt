@@ -28,5 +28,5 @@ public class Menu extends org.zkoss.gwt.client.zul.LabelImageWidget{
 	public native org.zkoss.gwt.client.zul.menu.Menubar getMenubar()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getMenubar();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/menu/Menu.js line:[103]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/menu/Menu.js line:[104]
 }

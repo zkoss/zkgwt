@@ -13,8 +13,9 @@ import org.zkoss.gwt.client.zul.wnd.Window;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseGroupbox {
-	public static Widget getInstance() {
+public class TestcaseGroupbox extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
 /*		

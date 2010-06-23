@@ -93,5 +93,5 @@ public class MeshWidget extends org.zkoss.gwt.client.zul.Widget{
 	public native void calcSize()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.calcSize();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[530]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/MeshWidget.js line:[558]
 }

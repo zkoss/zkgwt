@@ -28,5 +28,5 @@ public class Combobox extends org.zkoss.gwt.client.zul.inp.ComboWidget{
 	public native void validateStrict(String val)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.validateStrict(val);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Combobox.js line:[95]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/inp/Combobox.js line:[96]
 }

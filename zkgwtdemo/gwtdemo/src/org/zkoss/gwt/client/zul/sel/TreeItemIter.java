@@ -13,15 +13,15 @@ public class TreeItemIter extends org.zkoss.gwt.client.zul.Widget{
 	public native void $init(Tree tree)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.$init(tree);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Tree.js line:[248]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Tree.js line:[250]
 	
 	public native boolean hasNext()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.hasNext();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Tree.js line:[262]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Tree.js line:[264]
 	
 	public native Treeitem next()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.next();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Tree.js line:[270]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Tree.js line:[272]
 }

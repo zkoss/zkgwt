@@ -13,38 +13,38 @@ import org.zkoss.gwt.client.zul.wnd.Window;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseTree {
-	public static Widget getInstance() {
+public class TestcaseTree extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
-
-/*		
-     <tree  rows="5">
-         <treecols sizable="true">
-             <treecol label="Name"/>
-             <treecol label="Description"/>
-         </treecols>
-         <treechildren>
-             <treeitem>
-                 <treerow>
-                     <treecell label="Item 1"/>
-                     <treecell label="Item 1 description"/>
-                 </treerow>
-             </treeitem>
-             <treeitem>
-                 <treerow>
-                     <treecell label="Item 2"/>
-                     <treecell label="Item 2 description"/>
-                 </treerow>
-             </treeitem>
-             <treeitem label="Item 3"/>
-         </treechildren>
-         <treefoot>
-             <treefooter label="Count"/>
-             <treefooter label="Summary"/>
-         </treefoot>
-     </tree>
-*/
+		/*		
+	     <tree  rows="5">
+	         <treecols sizable="true">
+	             <treecol label="Name"/>
+	             <treecol label="Description"/>
+	         </treecols>
+	         <treechildren>
+	             <treeitem>
+	                 <treerow>
+	                     <treecell label="Item 1"/>
+	                     <treecell label="Item 1 description"/>
+	                 </treerow>
+	             </treeitem>
+	             <treeitem>
+	                 <treerow>
+	                     <treecell label="Item 2"/>
+	                     <treecell label="Item 2 description"/>
+	                 </treerow>
+	             </treeitem>
+	             <treeitem label="Item 3"/>
+	         </treechildren>
+	         <treefoot>
+	             <treefooter label="Count"/>
+	             <treefooter label="Summary"/>
+	         </treefoot>
+	     </tree>
+	*/
 		
 		Tree comp = new Tree();
 		Treecols tc = new Treecols();

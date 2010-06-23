@@ -2,7 +2,6 @@ package org.zkoss.gwt.client.testzk;
 
 import org.zkoss.gwt.client.zkex.layout.Columnchildren;
 import org.zkoss.gwt.client.zkex.layout.Columnlayout;
-import org.zkoss.gwt.client.zul.db.Calendar;
 import org.zkoss.gwt.client.zul.wgt.Label;
 import org.zkoss.gwt.client.zul.wnd.Panel;
 import org.zkoss.gwt.client.zul.wnd.Panelchildren;
@@ -11,68 +10,70 @@ import org.zkoss.gwt.client.zul.wnd.Window;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseColumnLayout {
-	public static Widget getInstance() {
+public class TestcaseColumnLayout extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
 /*		
 	<columnlayout>
 		<columnchildren width="30%" style="padding: 5px">
 			<panel>
-				<panelchildren>Panel</panelchildren>
+				<panelchildren>Panel11</panelchildren>
 			</panel>
 			<panel>
-				<panelchildren>Panel</panelchildren>
+				<panelchildren>Panel12</panelchildren>
+			</panel>
+		</columnchildren>	
+		<columnchildren width="70%" style="padding: 5px">
+			<panel>
+				<panelchildren>Panel21</panelchildren>
+			</panel>
+			<panel>
+				<panelchildren>Panel22</panelchildren>
 			</panel>
 		</columnchildren>	
 	</columnlayout>
 */		
-		Columnlayout comp = new Columnlayout();
-			Columnchildren cc1 = new Columnchildren();
-			//cause error 
-//com.google.gwt.core.client.JavaScriptException: (TypeError): this.parent._initDrag is not a function			
-//			cc1.setWidth("30%");
-//			cc1.setStyle("padding: 5px");
-			comp.add(cc1);
-				Panel p1 = new Panel();
-				cc1.add(p1);
-					Panelchildren pc1 = new Panelchildren();
-					p1.add(pc1);
-					Label lab1 = new Label();
-					pc1.add(lab1);
-					lab1.setValue("Panel11");
-		
-				Panel p2 = new Panel();
-				cc1.add(p2);
-					Panelchildren pc2 = new Panelchildren();
-					p2.add(pc2);
-					Label lab2 = new Label();
-					pc2.add(lab2);
-					lab2.setValue("Panel12");
+		Columnlayout columnlayout_1 = new Columnlayout();
+		win.add(columnlayout_1);
+		Columnchildren columnchildren_11 = new Columnchildren();
+		columnlayout_1.add(columnchildren_11);
+		columnchildren_11.setStyle("padding: 5px");
+		columnchildren_11.setWidth("30%");
+		Panel panel_111 = new Panel();
+		columnchildren_11.add(panel_111);
+		Panelchildren panelchildren_1111 = new Panelchildren();
+		panel_111.add(panelchildren_1111);
+		Label label_11111= new Label();
+		panelchildren_1111.add(label_11111);
+		label_11111.setValue("Panel11");
+		Panel panel_112 = new Panel();
+		columnchildren_11.add(panel_112);
+		Panelchildren panelchildren_1121 = new Panelchildren();
+		panel_112.add(panelchildren_1121);
+		Label label_11211= new Label();
+		panelchildren_1121.add(label_11211);
+		label_11211.setValue("Panel12");
+		Columnchildren columnchildren_12 = new Columnchildren();
+		columnlayout_1.add(columnchildren_12);
+		columnchildren_12.setStyle("padding: 5px");
+		columnchildren_12.setWidth("70%");
+		Panel panel_121 = new Panel();
+		columnchildren_12.add(panel_121);
+		Panelchildren panelchildren_1211 = new Panelchildren();
+		panel_121.add(panelchildren_1211);
+		Label label_12111= new Label();
+		panelchildren_1211.add(label_12111);
+		label_12111.setValue("Panel21");
+		Panel panel_122 = new Panel();
+		columnchildren_12.add(panel_122);
+		Panelchildren panelchildren_1221 = new Panelchildren();
+		panel_122.add(panelchildren_1221);
+		Label label_12211= new Label();
+		panelchildren_1221.add(label_12211);
+		label_12211.setValue("Panel22");
 
-
-			Columnchildren cc2 = new Columnchildren();
-			comp.add(cc2);
-//			cc2.setWidth("30%");
-//			cc2.setStyle("padding: 5px");			
-				Panel p21 = new Panel();
-				cc2.add(p21);
-					Panelchildren pc21 = new Panelchildren();
-					p21.add(pc21);
-					Label lab21 = new Label();
-					pc21.add(lab21);
-					lab21.setValue("Panel21");
-		
-				Panel p22 = new Panel();
-				cc2.add(p22);
-					Panelchildren pc22 = new Panelchildren();
-					p22.add(pc22);
-					Label lab22 = new Label();
-					pc22.add(lab22);
-					lab22.setValue("Panel22");
-					
-		
-		win.add(comp);
 				
 		return win;
 	}

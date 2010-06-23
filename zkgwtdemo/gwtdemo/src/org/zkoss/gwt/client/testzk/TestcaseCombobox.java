@@ -9,10 +9,13 @@ import org.zkoss.gwt.client.zul.wnd.Window;
 
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.json.client.JSONObject;
+import com.google.gwt.user.client.ui.Composite;
+import com.google.gwt.user.client.ui.SimplePanel;
 import com.google.gwt.user.client.ui.Widget;
 
-public class TestcaseCombobox {
-	public static Widget getInstance() {		
+public class TestcaseCombobox extends TestcaseWrapper {
+			
+	public Widget getInstance() {		
 		Window win = new Window();
 
 /*		
@@ -62,9 +65,5 @@ public class TestcaseCombobox {
 
 	public static final native int getSelectedIndex(JavaScriptObject js) /*-{
 		return js.data.items[0].getChildIndex(); 
-	}-*/;
-
-	public static final native String getJSONString(JavaScriptObject js) /*-{				
-		return $wnd.jq.toJSON(js.data); 
 	}-*/;
 }

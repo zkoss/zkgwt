@@ -13,40 +13,40 @@ public class Calendar extends org.zkoss.gwt.client.zul.Widget{
 	public native Date getValue()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getValue();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[48]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[112]
 	
 	public native void setValue(Date value)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setValue(value);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[45]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[109]
 	
 	public native String getConstraint()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getConstraint();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[66]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[130]
 	
 	public native void setConstraint(String constraint)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setConstraint(constraint);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[54]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[118]
 	
 	public native String getName()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getName();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[117]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[181]
 	
 	public native void setName(String name)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setName(name);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[107]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[171]
 	
 	public native String getFormat()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getFormat();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[187]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[256]
 	
 	public native Date getTime()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getTime();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[298]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/db/Calendar.js line:[367]
 }

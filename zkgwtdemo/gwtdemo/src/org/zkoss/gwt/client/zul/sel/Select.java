@@ -43,55 +43,55 @@ public class Select extends org.zkoss.gwt.client.zul.Widget{
 	public native void setTabindex(int tabindex)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setTabindex(tabindex);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[81]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[87]
 	
 	public native int getTabindex()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getTabindex();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[75]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[81]
 	
 	public native void setName(String name)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setName(name);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[102]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[108]
 	
 	public native String getName()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getName();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[89]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[95]
 	
 	public native void setRows(int rows)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setRows(rows);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[125]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[131]
 	
 	public native int getRows()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getRows();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[119]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[125]
 	
 	public native void setMaxlength(int maxlength)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setMaxlength(maxlength);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[140]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[146]
 	
 	public native int getMaxlength()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getMaxlength();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[136]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[142]
 	
 	public native void toggleItemSelection(Option item)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.toggleItemSelection(item);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[149]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[155]
 	
 	public native void selectItem(Option item)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.selectItem(item);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[159]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[165]
 	
 	public native void clearSelection()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.clearSelection();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[195]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Select.js line:[201]
 }
