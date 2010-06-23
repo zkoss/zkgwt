@@ -11,8 +11,9 @@ import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseTextbox {
-	public static Widget getInstance() {
+public class TestcaseTextbox extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
 
@@ -161,9 +162,9 @@ public class TestcaseTextbox {
 	}
 	
 	public static final native org.zkoss.gwt.client.zk.Widget getDragged(JavaScriptObject js) /*-{
-		$wnd.zk.log("dragged");
-		$wnd.zk.log(js.data.dragged);
-		$wnd.zk.log("__gwtIns");
+//		$wnd.zk.log("dragged");
+//		$wnd.zk.log(js.data.dragged);
+//		$wnd.zk.log("__gwtIns");
 		//uncaught exception: com.google.gwt.core.client.JavaScriptException: (null): null
 		//can get the gwt widget, but can print it by zk.log
 		//$wnd.zk.log(js.data.dragged.__gwtIns);
@@ -176,11 +177,5 @@ public class TestcaseTextbox {
 		return js.data.selected; 
 	}-*/;
 	
-	public static final native String getValue(JavaScriptObject js) /*-{
-		return js.data.value; 
-	}-*/;
 	
-	public static final native String getJSONString(JavaScriptObject js) /*-{				
-		return $wnd.jq.toJSON(js.data); 
-	}-*/;	
 }

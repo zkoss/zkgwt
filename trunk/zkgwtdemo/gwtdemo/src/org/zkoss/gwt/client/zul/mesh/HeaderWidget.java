@@ -33,10 +33,10 @@ public class HeaderWidget extends org.zkoss.gwt.client.zul.LabelImageWidget{
 	public native org.zkoss.gwt.client.zul.mesh.MeshWidget getMeshWidget()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getMeshWidget();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/HeaderWidget.js line:[109]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/HeaderWidget.js line:[107]
 	
 	public native String getColAttrs()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getColAttrs();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/HeaderWidget.js line:[124]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/mesh/HeaderWidget.js line:[122]
 }

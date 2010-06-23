@@ -33,15 +33,15 @@ public class LabelImageWidget extends org.zkoss.gwt.client.zul.Widget{
 	public native String getHoverImage()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getHoverImage();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/LabelImageWidget.js line:[49]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/LabelImageWidget.js line:[51]
 	
 	public native void setHoverImage(String src)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setHoverImage(src);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/LabelImageWidget.js line:[45]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/LabelImageWidget.js line:[47]
 	
 	public native com.google.gwt.user.client.Element getImageNode()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getImageNode();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/LabelImageWidget.js line:[108]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/LabelImageWidget.js line:[110]
 }

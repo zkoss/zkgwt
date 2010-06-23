@@ -13,8 +13,9 @@ import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseDatebox {
-	public static Widget getInstance() {
+public class TestcaseDatebox extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
 		
@@ -43,13 +44,5 @@ public class TestcaseDatebox {
 		return win;
 	}
 
-	//can we parse it back to Date?
-	public static final native Date getValue(JavaScriptObject js) /*-{
-		return new Date(js.data.value); 
-	}-*/;
-	
-	public static final native String getJSONString(JavaScriptObject js) /*-{				
-		return $wnd.jq.toJSON(js.data); 
-	}-*/;		
 
 }

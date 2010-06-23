@@ -6,17 +6,18 @@ import org.zkoss.gwt.client.zul.wnd.Window;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseColorbox {
-	public static Widget getInstance() {
+public class TestcaseColorbox extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
 		/*
 		<colorbox color="#FFFFFF" />
 		*/
-		Colorbox comp = new Colorbox();
-		comp.setColor("#FFFFFF");
-		
-		win.add(comp);
+		Colorbox colorbox_1 = new Colorbox();
+		win.add(colorbox_1);
+		colorbox_1.setColor("#FFFFFF");
+
 				
 		return win;
 	}

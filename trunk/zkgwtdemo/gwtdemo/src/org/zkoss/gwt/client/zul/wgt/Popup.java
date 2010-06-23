@@ -23,10 +23,10 @@ public class Popup extends org.zkoss.gwt.client.zul.Widget{
 	public native void position(org.zkoss.gwt.client.zk.Widget ref, int[] offset, String position, Map opts)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.position(ref, offset, position, opts);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/wgt/Popup.js line:[112]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/wgt/Popup.js line:[114]
 	
 	public native void close(Map opts)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.close(opts);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/wgt/Popup.js line:[155]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/wgt/Popup.js line:[157]
 }

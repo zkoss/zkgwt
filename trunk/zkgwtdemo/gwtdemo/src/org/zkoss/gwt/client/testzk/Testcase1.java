@@ -15,8 +15,10 @@ import com.google.gwt.user.client.ui.Widget;
 
 
 
-public class Testcase1 {
-	public static Widget getInstance() {
+public class Testcase1 extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
+		
 		final Window win1 = new Window();
 		win1.setTitle(" outer Window!!");
 		win1.setBorder("normal");

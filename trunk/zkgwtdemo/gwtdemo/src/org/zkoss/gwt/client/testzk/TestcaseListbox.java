@@ -6,8 +6,9 @@ import org.zkoss.gwt.client.zul.sel.Listitem;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseListbox {
-	public static Widget getInstance() {	
+public class TestcaseListbox extends TestcaseWrapper {
+			
+	public Widget getInstance() {		
 		
 /*		
 		<listbox rows="1" mold="select">

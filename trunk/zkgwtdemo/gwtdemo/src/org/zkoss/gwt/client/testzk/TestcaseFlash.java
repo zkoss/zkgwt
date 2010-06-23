@@ -6,8 +6,9 @@ import org.zkoss.gwt.client.zul.wnd.Window;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseFlash {
-	public static Widget getInstance() {
+public class TestcaseFlash extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
 

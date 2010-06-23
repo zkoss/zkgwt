@@ -7,16 +7,17 @@ import org.zkoss.gwt.client.zul.wnd.Window;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseFisheye {
-	public static Widget getInstance() {
+public class TestcaseFisheye extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
 
 /*		
 		<fisheyebar>
-			<fisheye image="msn1.gif" label="Email onClick="
-			alert ( self.label ) />
-			</fisheyebar>
+			<fisheye image="msn1.gif" label="Email"/>
+			<fisheye image="msn1.gif" label="Email"/>
+		</fisheyebar>
 */			
 		Fisheyebar comp = new Fisheyebar();		
 			Fisheye fe1 = new Fisheye();

@@ -38,15 +38,15 @@ public class Option extends org.zkoss.gwt.client.zul.Widget{
 	public native boolean isSelected()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.isSelected();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Option.js line:[73]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Option.js line:[75]
 	
 	public native String getLabel()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getLabel();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Option.js line:[80]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Option.js line:[82]
 	
 	public native int getMaxlength()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getMaxlength();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Option.js line:[87]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Option.js line:[89]
 }

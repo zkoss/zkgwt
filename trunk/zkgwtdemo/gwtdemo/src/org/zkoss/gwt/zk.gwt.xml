@@ -14,12 +14,13 @@
 
 <!-- used for develope mode -->      
   <script src="/zkau/web/js/zk.wpd"/>
-  <script src="/zkau/web/js/zk.zuml.wpd"/>
   <script src="/zkau/web/js/zk.fmt.wpd"/>
+  <script src="/zkau/web/js/zk.zuml.wpd"/>
   
   <script src="/zkau/web/js/zul.wpd"/>
   <script src="/zkau/web/js/zul.box.wpd"/>
   <script src="/zkau/web/js/zul.db.wpd"/>
+  <script src="/zkau/web/js/zul.fchart.wpd"/>
   <script src="/zkau/web/js/zul.grid.wpd"/>
   <script src="/zkau/web/js/zul.inp.wpd"/>
   <script src="/zkau/web/js/zul.med.wpd"/>
@@ -29,10 +30,11 @@
   <script src="/zkau/web/js/zul.wgt.wpd"/>
   <script src="/zkau/web/js/zul.wnd.wpd"/>
   
+  <script src="/zkau/web/js/zkex.grid.wpd"/>
+  <script src="/zkau/web/js/zkex.inp.wpd"/>  
   <script src="/zkau/web/js/zkex.layout.wpd"/>
   <script src="/zkau/web/js/zkex.menu.wpd"/>
-  <script src="/zkau/web/js/zkex.inp.wpd"/>  
-  <script src="/zkau/web/js/zkex.grid.wpd"/>
+  <script src="/zkau/web/js/zkex.sel.wpd"/>
 
   <script src="/zkau/web/js/zkmax.layout.wpd"/>
   

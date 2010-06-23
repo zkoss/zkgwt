@@ -13,8 +13,9 @@ import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseTimer {
-	public static Widget getInstance() {
+public class TestcaseTimer extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
 
@@ -45,7 +46,4 @@ public class TestcaseTimer {
 		return win;
 	}
 
-	public static final native String getJSONString(JavaScriptObject js) /*-{				
-		return $wnd.jq.toJSON(js.data); 
-	}-*/;	
 }

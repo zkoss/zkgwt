@@ -8,8 +8,9 @@ import org.zkoss.gwt.client.zul.wnd.Window;
 import com.google.gwt.user.client.ui.Widget;
 
 
-public class TestcaseSplitter {
-	public static Widget getInstance() {
+public class TestcaseSplitter extends TestcaseWrapper {
+			
+	public Widget getInstance() {	
 		
 		Window win = new Window();
 

@@ -23,55 +23,55 @@ public class Treeitem extends org.zkoss.gwt.client.zul.sel.ItemWidget{
 	public native boolean isContainer()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.isContainer();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[93]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[92]
 	
 	public native boolean isEmpty()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.isEmpty();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[100]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[99]
 	
 	public native int getLevel()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getLevel();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[106]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[105]
 	
 	public native String getLabel()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getLabel();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[121]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[120]
 	
 	public native void setLabel(String label)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		widget.setLabel(label);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[129]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[128]
 	
 	public native Treecell getFirstCell()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getFirstCell();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[137]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[136]
 	
 	public native String getImage()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getImage();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[155]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[154]
 	
 	public native Treeitem setImage(String image)/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.setImage(image);
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[162]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[161]
 	
 	public native Treeitem getParentItem()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getParentItem();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[172]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[171]
 	
 	public native Tree getMeshWidget()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getMeshWidget();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[69]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[68]
 	
 	public native Tree getTree()/*-{
 		var widget = this.@org.zkoss.gwt.client.zk.Widget::getZkWidget()();
 		return widget.getTree();
-	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[78]
+	}-*/; //I:/svn/zk5_sf/zul/src/archive/web/js/zul/sel/Treeitem.js line:[77]
 }
