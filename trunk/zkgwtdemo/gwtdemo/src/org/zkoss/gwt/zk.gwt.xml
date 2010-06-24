@@ -12,7 +12,9 @@
 	<!-- To speed up compiling for development                        -->
 	<set-property name="user.agent" value="gecko"/>
 
-<!-- used for develope mode -->      
+<!-- used for develope mode -->     
+<!--  won't load while in deploy mode. Because url won't add context path back
+so, we add such script in the head part of host html
   <script src="/zkau/web/js/zk.wpd"/>
   <script src="/zkau/web/js/zk.fmt.wpd"/>
   <script src="/zkau/web/js/zk.zuml.wpd"/>
@@ -43,10 +45,10 @@
   <stylesheet src="/zkau/web/zul/css/zk.wcs"/>
   <stylesheet src="/zkau/web/zul/css/norm.css.dsp"/>  
   <stylesheet src="/zkau/web/zul/css/ext.css.dsp"/>
-
+-->
 
 <!-- Test to see if unit test ok -->
-<!--  
+<!--  still fail. GWT did something. may affect ZK's lifecycle.
 <servlet path="/zkautemp" class="org.zkoss.zk.ui.http.MyDHtmlLayoutServlet"/>
 
 <servlet path="/zkau" class="org.zkoss.zk.au.http.DHtmlUpdateServlet"/>
