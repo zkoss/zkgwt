@@ -18,7 +18,7 @@ public class TestcaseFlash extends TestcaseWrapper {
 		</flash>
 */		
 		Flash comp = new Flash();
-		comp.setSrc("/learn.swf");
+		comp.setSrc("/res/learn.swf");
 		comp.setHeight("300px");
 		comp.setWidth("800px");
 		

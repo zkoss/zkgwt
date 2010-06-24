@@ -11,10 +11,10 @@ public class TestcaseApplet extends TestcaseWrapper {
 	public Widget getInstance() {	
 		Window win = new Window();
 		/*
-		<applet  code="ticker.class" msg="ZK is Simple and Rich!" width="580px" />
+		<applet  code="/res/ticker.class" msg="ZK is Simple and Rich!" width="580px" />
 		*/	
 		Applet comp = new Applet();
-		comp.setCode("ticker.class");
+		comp.setCode("/res/ticker.class");
 		//comp.setMsg(), no such api
 		//comp.setWidth("580px");
 		

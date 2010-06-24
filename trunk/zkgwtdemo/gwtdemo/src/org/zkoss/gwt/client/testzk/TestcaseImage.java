@@ -14,11 +14,11 @@ public class TestcaseImage extends TestcaseWrapper {
 		Window win = new Window();
 
 /*		
-		<image src="/my.png">
+		<image src="/test2/img/coffee.gif">
 */
 		
 		Image comp = new Image();
-		comp.setSrc("/msn1.gif");
+		comp.setSrc("/test2/img/coffee.gif");
 		
 		win.add(comp);
 				

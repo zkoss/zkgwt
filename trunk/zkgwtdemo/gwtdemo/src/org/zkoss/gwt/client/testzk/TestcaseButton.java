@@ -20,7 +20,7 @@ public class TestcaseButton extends TestcaseWrapper {
 */
 		Button comp = new Button();
 		comp.setLabel("Left");
-		comp.setImage("msn1.gif");
+		comp.setImage("/test2/img/folder.gif");
 		//comp.setWidth("125px");
 		
 		comp.setUpload("true");

@@ -17,10 +17,10 @@ public class TestcaseImagemap extends TestcaseWrapper {
 		
 		Window win = new Window();
 /*		
-		<imagemap src="/img/sun.jpg" onClick="alert(event.x + &quot;, &quot; +event.y)"/>
+		<imagemap src="/test2/img/coffee.gif" onClick="alert(event.x + &quot;, &quot; +event.y)"/>
 */			
 		Imagemap comp = new Imagemap();
-		comp.setSrc("msn1.gif");
+		comp.setSrc("/test2/img/coffee.gif");
 		//can I get the event data?
 		
 		win.add(comp);

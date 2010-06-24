@@ -11,6 +11,7 @@ import org.zkoss.gwt.client.zul.sel.Listitem;
 import org.zkoss.gwt.client.zul.wnd.Window;
 
 import com.google.gwt.core.client.JavaScriptObject;
+import com.google.gwt.core.client.JsArrayInteger;
 import com.google.gwt.user.client.ui.Widget;
 
 
@@ -72,23 +73,6 @@ public class TestcaseListboxEvent extends TestcaseWrapper {
 		listitem_13.add(listcell_132);
 		listcell_132.setLabel("12%");
 
-		listitem_12.addEventListener(Events.ON_SELECT, new EventListener() {
-			public void onEvent(Event event) {				
-				JavaScriptObject nEvent = event.getNativeEvent();				
-				System.out.println(">>listitem_12 ON_SELECT");
-				System.out.println("data" + getJSONString(nEvent));			
-								
-			}
-		});
-		
-		listitem_13.addEventListener(Events.ON_SELECT, new EventListener() {
-			public void onEvent(Event event) {				
-				JavaScriptObject nEvent = event.getNativeEvent();				
-				System.out.println(">>listitem_13 ON_SELECT");
-				System.out.println("data" + getJSONString(nEvent));			
-								
-			}
-		});		
 		
 		listbox_1.addEventListener(Events.ON_SELECT, new EventListener() {
 			public void onEvent(Event event) {				
@@ -97,49 +81,26 @@ public class TestcaseListboxEvent extends TestcaseWrapper {
 				System.out.println("data" + getJSONString(nEvent));								
 				System.out.println("selected index:" + getSelectedIndex(nEvent));		
 
-				System.out.println("selected indexes: "+ getSelectedIndexes(nEvent));
-				
-				int[] pass = {5,5};
-				pass = getSelectedIndexesArray(nEvent,pass);
-				System.out.println("the length of " + pass.length);
-				for(int i =0;i<pass.length;i++){
-					System.out.println(pass);
-				}				
+				JsArrayInteger result = getSelectedIndexes(nEvent);
+				for(int i=0;i<result.length();i++){
+					System.out.println("select : "+i+" : "+result.get(i));	
+				}								
 			}
 		});
 		
-
 		return win;
 	}
 	
 	public static final native int getSelectedIndex(JavaScriptObject js) /*-{
 		return js.data.items[0].getChildIndex(); 
 	}-*/;
-	
-	//
-	public static final native String getSelectedIndexes(JavaScriptObject js) /*-{
-//		$wnd.zk.log(js.data.items.length);
-		var result = new Array(js.data.items.length);
-		for(var i=0;i<js.data.items.length;i++){
-			result[i]=js.data.items[i].getChildIndex();
-//			$wnd.zk.log(i, result[i]);
-		}
-//		$wnd.zk.log("result", result);
-		return result.toString(); 
-	}-*/;
-	
-	//
-	public static final native int[] getSelectedIndexesArray(JavaScriptObject js, int[] passback) /*-{
-//		$wnd.zk.log(js.data.items.length);
-		var result = new Array(js.data.items.length);
-		for(var i=0;i<js.data.items.length;i++){
-			result[i]=js.data.items[i].getChildIndex();
-			passback[i] = js.data.items[i].getChildIndex();
-//			$wnd.zk.log(i, result[i]);
-		}
-//		$wnd.zk.log("result", result);
-		return passback; 
-	}-*/;
-	
 		
+	
+	public static final native JsArrayInteger getSelectedIndexes(JavaScriptObject js) /*-{
+		var result = new Array(js.data.items.length);
+		for(var i=0;i<js.data.items.length;i++){
+			result[i]=js.data.items[i].getChildIndex();
+		}
+		return result; 
+	}-*/;		
 }
