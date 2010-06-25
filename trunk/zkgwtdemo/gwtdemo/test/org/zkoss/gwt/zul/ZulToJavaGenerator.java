@@ -132,7 +132,8 @@ public class ZulToJavaGenerator {
 						isNumber = false;
 				    }
 
-					if(value.equals("true")||value.equals("false")||isNumber){
+					if(!tag.equalsIgnoreCase("label") && 
+							(value.equals("true")||value.equals("false")||isNumber)){
 						System.out.println(id+"."+methods[j].getName()+"("+value+");");
 					}else{
 						System.out.println(id+"."+methods[j].getName()+"(\""+value+"\");");
