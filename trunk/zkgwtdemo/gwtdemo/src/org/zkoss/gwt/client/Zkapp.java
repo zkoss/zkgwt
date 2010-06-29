@@ -60,14 +60,15 @@ public class Zkapp implements EntryPoint {
 	
 	public Widget genWidget(){
 		
-		Panel panelChat = new Panel();
+		Panel panelChat = new Panel(){{
+			setBorder("normal");
+			setCollapsible(true);
+			setFramable(true);
+			setHeight("400px");
+			setTitle("Chat");
+			setWidth("500px");			
+		}};
 		
-		panelChat.setBorder("normal");
-		panelChat.setCollapsible(true);
-		panelChat.setFramable(true);
-		panelChat.setHeight("400px");
-		panelChat.setTitle("Chat");
-		panelChat.setWidth("500px");
 		
 		Toolbar toolbarContact = (Toolbar) addContactToolbar();
 		panelChat.add(toolbarContact);
@@ -86,9 +87,13 @@ public class Zkapp implements EntryPoint {
 	
 	private Widget addContactToolbar(){
 		Toolbar toolbarContact = new Toolbar();
-		Label labelContact= new Label();
+		Label labelContact= new Label(){
+			{
+				setValue("Contact");
+			}
+		};
 		toolbarContact.add(labelContact);
-		labelContact.setValue("Contact:");
+
 		Bandbox bandboxContact = new Bandbox();
 		toolbarContact.add(bandboxContact);
 		bandboxContact.setAutodrop(true);
@@ -117,33 +122,34 @@ public class Zkapp implements EntryPoint {
 		Rows rowsContact = new Rows();
 		gridContact.add(rowsContact);
 
-		Group groupColleague = new Group();
-		rowsContact.add(groupColleague);
+		Group groupColleagues = new Group();
+		rowsContact.add(groupColleagues);
 		Label labelColleague = new Label();
-		groupColleague.add(labelColleague);
-		labelColleague.setValue("Colleague");
+		groupColleagues.add(labelColleague);
+		labelColleague.setValue("Colleagues");
 		
-		Row rowTom = new Row();
-		rowsContact.add(rowTom);
-		Contact tom = new Contact("Tom","0001","/test2/img/icon_users.png","ZK","coding");
-		addContact(rowTom, tom);
+		Row rowFred = new Row();
+		rowsContact.add(rowFred);
+		Contact fred = new Contact("Fred","408-307-5961","/res/img/demo2.PNG","3/29","coding");
+		addContact(rowFred, fred);
 		
 		
-		Group groupFamily = new Group();
-		rowsContact.add(groupFamily);
+		
+		Group groupFriends = new Group();
+		rowsContact.add(groupFriends);
 		Label labelFamily = new Label();
-		groupFamily.add(labelFamily);
-		labelFamily.setValue("Family");
+		groupFriends.add(labelFamily);
+		labelFamily.setValue("Friends");
 		
-		Row rowFather = new Row();
-		rowsContact.add(rowFather);
-		Contact father = new Contact("Father","8888","/test2/img/icon_browser.png","home","car");
-		addContact(rowFather, father);
+		Row rowGed = new Row();
+		rowsContact.add(rowGed);
+		Contact ged = new Contact("Ged","213-329-6477","/res/img/demo3.PNG","10/10","car");
+		addContact(rowGed, ged);
 				
-		Row rowMother = new Row();
-		rowsContact.add(rowMother);
-		Contact mother = new Contact("Mother","8888","/test2/img/icon_calendar.png","me","cooking");
-		addContact(rowMother, mother);
+		Row rowMeg = new Row();
+		rowsContact.add(rowMeg);
+		Contact meg = new Contact("Meg","212-295-3229","/res/img/demo4.PNG","5/20","cooking");
+		addContact(rowMeg, meg);
 		
 		return toolbarContact;
 	}
@@ -175,20 +181,23 @@ public class Zkapp implements EntryPoint {
 		divResponse.setStyle("overflow:auto;");
 		Label textboxResponse = new Label();
 		divResponse.add(textboxResponse);
-		textboxResponse.setValue("Welcome to ZK GWT");
+		textboxResponse.setValue("Welcome to ZK GWT!");
 		
-		South southSend = new South();
+		South southSend = new South(){{
+			setFlex(true);
+			setSize("25%");
+			setSize("25%");
+			setSplittable(true);			
+		}};
 		borderlayoutDialog.add(southSend);
-		southSend.setFlex(true);
-		southSend.setSize("25%");
-		southSend.setSize("25%");
-		southSend.setSplittable(true);
-		Textbox textboxSend = new Textbox();
+
+		Textbox textboxSend = new Textbox(){{
+			setMultiline(true);
+			setStyle("margin:0px");
+			setValue("Sounds good. Press the \"Send\" button to send this message",false);
+			setWidth("98%");			
+		}};
 		southSend.add(textboxSend);
-		textboxSend.setMultiline(true);
-		textboxSend.setStyle("margin:0px");
-		textboxSend.setValue("Hi, I am Jumper. (Please press the OK Button)",false);
-		textboxSend.setWidth("98%");
 		
 		
 		Columnchildren columnchildrenIcon = new Columnchildren();
@@ -205,22 +214,21 @@ public class Zkapp implements EntryPoint {
 		borderlayoutIcon.setStyle("background:transparent");
 		borderlayoutIcon.setWidth("100%");
 		
-		North northIcon = new North();
+		North northIcon = new North(){{
+			setBorder("none");
+			setSize("120px");
+			setStyle("background:transparent");			
+		}};
 		borderlayoutIcon.add(northIcon);
-		northIcon.setBorder("none");
-		northIcon.setSize("120px");
-		northIcon.setSize("120px");
-		northIcon.setStyle("background:transparent");
 		Image imageIconTarget = new Image();
 		northIcon.add(imageIconTarget);
-		imageIconTarget.setSrc("/res/img/msn1.gif");
-		
-		South southIcon = new South();
+		imageIconTarget.setSrc("/res/img/msn.png");	
+		South southIcon = new South(){{
+			setBorder("none");
+			setSize("120px");
+			setStyle("background:transparent");			
+		}};
 		borderlayoutIcon.add(southIcon);
-		southIcon.setBorder("none");
-		southIcon.setSize("120px");
-		southIcon.setSize("120px");
-		southIcon.setStyle("background:transparent");
 		Image imageIconMe = new Image();
 		southIcon.add(imageIconMe);
 		imageIconMe.setSrc("/res/img/msn2.gif");
@@ -241,17 +249,18 @@ public class Zkapp implements EntryPoint {
 		menuProject.setLabel("Project");		
 		Menupopup menupopupProject = new Menupopup();
 		menuProject.add(menupopupProject);
-		Menuitem menuitemNew = new Menuitem();
+		Menuitem menuitemNew = new Menuitem(){{
+			setImage("/res/img/Centigrade-Widget-Icons/BriefcaseSpark-16x16.png");
+			setLabel("New");
+			
+			addEventListener(Events.ON_CLICK, new EventListener() {
+				@Override
+				public void onEvent(Event event) {
+					Window.alert("New Clicked");
+				}
+			});					
+		}};
 		menupopupProject.add(menuitemNew);
-		menuitemNew.setImage("/res/img/Centigrade-Widget-Icons/BriefcaseSpark-16x16.png");
-		menuitemNew.setLabel("New");
-		
-		menuitemNew.addEventListener(Events.ON_CLICK, new EventListener() {
-			@Override
-			public void onEvent(Event event) {
-				Window.alert("New Clicked");
-			}
-		});		
 
 		Menuitem menuitemOpen = new Menuitem();
 		menupopupProject.add(menuitemOpen);
@@ -290,7 +299,7 @@ public class Zkapp implements EntryPoint {
 		menuitemAboutZK.setLabel("About ZK");
 		Menuitem menuitemAboutPotix = new Menuitem();
 		menupopupAbout.add(menuitemAboutPotix);
-		menuitemAboutPotix.setLabel("About Potix");
+		menuitemAboutPotix.setLabel("About ZK GWT");
 		
 		
 		
@@ -310,17 +319,18 @@ public class Zkapp implements EntryPoint {
 		result.setAlign("center");
 		result.setMold("panel");
 		
-		Button btnOK = new Button();
-		result.add(btnOK);
-		btnOK.setLabel("OK");
-		btnOK.setWidth("65px");
-		
-		btnOK.addEventListener(Events.ON_CLICK, new EventListener() {
-			@Override
-			public void onEvent(Event event) {
-				Window.alert("OK Clicked");
-			}
-		});		
+		Button btnSend = new Button(){{
+			setLabel("Send");
+			setWidth("65px");
+			
+			addEventListener(Events.ON_CLICK, new EventListener() {
+				@Override
+				public void onEvent(Event event) {
+					Window.alert("Send Clicked.");
+				}
+			});					
+		}};
+		result.add(btnSend);
 		
 		
 		Button btnCancel = new Button();
@@ -341,21 +351,21 @@ public class Zkapp implements EntryPoint {
 		Rows rows = new Rows();
 		grid.add(rows);
 
-		Row rowProduct = new Row();
-		rows.add(rowProduct);
+		Row rowBirthdate = new Row();
+		rows.add(rowBirthdate);
 		Cell cell = new Cell();
-		rowProduct.add(cell);
+		rowBirthdate.add(cell);
 		cell.setRowspan(2);
 		Image image = new Image();
 		cell.add(image);
 		image.setSrc(target.getIcon());		
 		image.setWidth("90%");
-		Label labelProduct = new Label();
-		rowProduct.add(labelProduct);
-		labelProduct.setValue("Product");
-		Label labelProductValue = new Label();
-		rowProduct.add(labelProductValue);
-		labelProductValue.setValue(target.getProduct());
+		Label labelBirthdate = new Label();
+		rowBirthdate.add(labelBirthdate);
+		labelBirthdate.setValue("Birth Date");
+		Label labelBirthdateValue = new Label();
+		rowBirthdate.add(labelBirthdateValue);
+		labelBirthdateValue.setValue(target.getBirthdate());
 		
 		Row rowHabit = new Row();
 		rows.add(rowHabit);
@@ -380,14 +390,14 @@ public class Zkapp implements EntryPoint {
 		private String name;
 		private String phone;
 		private String icon;		
-		private String product;
+		private String birthdate;
 		private String habit;
 		
-		Contact(String name, String phone, String icon, String product, String habit){
+		Contact(String name, String phone, String icon, String birthdate, String habit){
 			this.name = name;
 			this.phone = phone;
 			this.icon = icon;
-			this.product = product;
+			this.birthdate = birthdate;
 			this.habit = habit;			
 		}
 		
@@ -403,8 +413,8 @@ public class Zkapp implements EntryPoint {
 			return phone;
 		}
 
-		public String getProduct() {
-			return product;
+		public String getBirthdate() {
+			return birthdate;
 		}
 
 		public String getHabit() {
