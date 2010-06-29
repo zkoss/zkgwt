@@ -26,11 +26,10 @@ You have to add lines like <script src="zkau/web/js/zk.wpd" type="text/javascrip
 
 = Environment Setup =
 
-*Download zkgwt.jar to /war/WEB-INF/lib. Add this file to build path.
-*Add <inherits name='org.zkoss.gwt.zk' /> to module XML file.
-
-*Copy jars in ZK binary release to /war/WEB-INF/lib.
-*Modify web.xml, zk.xml to make ZK work while requesting resources of ZK. For example, JavaScript code of ZK widgets. You may reference files in the source repository for detail.
-*Modify appengine-web.xml, add <sessions-enabled>true</sessions-enabled> to enable session.
+ * Download zkgwt.jar to /war/WEB-INF/lib. Add this file to build path.
+ * Add <inherits name='org.zkoss.gwt.zk' /> to module XML file.
+ * Copy jars in ZK binary release to /war/WEB-INF/lib.
+ * Modify web.xml, zk.xml to make ZK work while requesting resources of ZK. For example, JavaScript code of ZK widgets. You may reference files in the source repository for detail. 
+ * Modify appengine-web.xml, add <sessions-enabled>true</sessions-enabled> to enable session.
 
 You should be able to use ZK GWT now. Have a nice time with it.
