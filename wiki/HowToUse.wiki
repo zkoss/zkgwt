@@ -9,7 +9,7 @@ This is a preview version only. Thanks to the good architecture of GWT and ZK. W
 
 An UI for web chat messenger is implemented by ZK GWT.
 
-<wiki:video url="http://www.youtube.com/watch?v=QkY-yrPPNW0"/>
+<wiki:video url="http://www.youtube.com/watch?v=kKm4aWJFe6A"/>
 
 You can see abundant layout is provided in ZK GWT. For example group and detail. These layout components can help to organize information more cleverly. The source code is at [http://code.google.com/p/zkgwt/source/browse/trunk/zkgwtdemo/gwtdemo/src/org/zkoss/gwt/client/Zkapp.java Zkapp.java].
 
