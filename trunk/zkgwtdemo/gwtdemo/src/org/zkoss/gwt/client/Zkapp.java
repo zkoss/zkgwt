@@ -51,7 +51,9 @@ public class Zkapp implements EntryPoint {
 	
 	private VerticalPanel panel = new VerticalPanel();
 		
-		
+	private Textbox textboxSend;
+	private Textbox textboxResponse;
+	
 	@Override
 	public void onModuleLoad() {
 		panel.add(genWidget());		
@@ -179,9 +181,15 @@ public class Zkapp implements EntryPoint {
 		Div divResponse = new Div();
 		centerReponse.add(divResponse);
 		divResponse.setStyle("overflow:auto;");
-		Label textboxResponse = new Label();
+		textboxResponse = new Textbox(){{
+			setMultiline(true);
+			setStyle("border: none;");			
+			setWidth("99%");			
+			setHeight("98%");
+		}};
+
 		divResponse.add(textboxResponse);
-		textboxResponse.setValue("Welcome to ZK GWT!");
+		textboxResponse.setValue("Welcome to ZK GWT!",false);
 		
 		South southSend = new South(){{
 			setFlex(true);
@@ -191,11 +199,11 @@ public class Zkapp implements EntryPoint {
 		}};
 		borderlayoutDialog.add(southSend);
 
-		Textbox textboxSend = new Textbox(){{
+		textboxSend = new Textbox(){{
 			setMultiline(true);
-			setStyle("margin:0px");
-			setValue("Sounds good. Press the \"Send\" button to send this message",false);
+			setStyle("border: none;");			
 			setWidth("98%");			
+			setHeight("98%");
 		}};
 		southSend.add(textboxSend);
 		
@@ -326,7 +334,9 @@ public class Zkapp implements EntryPoint {
 			addEventListener(Events.ON_CLICK, new EventListener() {
 				@Override
 				public void onEvent(Event event) {
-					Window.alert("Send Clicked.");
+					//Window.alert("Send Clicked.");
+					textboxResponse.setValue(textboxSend.getValue(), false);
+					textboxSend.setValue("", false);
 				}
 			});					
 		}};

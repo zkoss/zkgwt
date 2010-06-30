@@ -42,10 +42,7 @@ public class TestcaseCombobox extends TestcaseWrapper {
 				JavaScriptObject nEvent = event.getNativeEvent();				
 				System.out.println(">>combobox onselect");
 				System.out.println("data" + getJSONString(nEvent));			
-				System.out.println("selected index = " + getSelectedIndex(nEvent));
-				
-				//From Ian, should provide extended SelectEvent can provide getSelectedIndex() 
-				//nEvent.getSelectedIndex();
+				System.out.println("selected index = " + getSelectedIndex(nEvent));				
 			}
 		});
 
