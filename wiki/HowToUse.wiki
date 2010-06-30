@@ -25,9 +25,9 @@ You have to add lines like {{{<script src="zkau/web/js/zk.wpd" type="text/javasc
 
 
 = Environment Setup =
-
+ * New a Google Web Application Project.
  * Download [http://zkgwt.googlecode.com/files/zkgwt.jar zkgwt.jar] to /war/WEB-INF/lib. Add this file to build path.
- * Add {{{<inherits name='org.zkoss.gwt.zk' />}}} to module XML file like .
+ * Add {{{<inherits name='org.zkoss.gwt.zk' />}}} to module XML file.
  * Copy jars in ZK binary release to /war/WEB-INF/lib.
  * Modify [http://code.google.com/p/zkgwt/source/browse/trunk/zkgwtdemo/gwtdemo/war/WEB-INF/web.xml web.xml], [http://code.google.com/p/zkgwt/source/browse/trunk/zkgwtdemo/gwtdemo/war/WEB-INF/zk.xml zk.xml] to make ZK work while requesting resources of ZK. For example, JavaScript code of ZK widgets. You may reference files in the source repository for detail. 
  * Modify appengine-web.xml, add {{{<sessions-enabled>true</sessions-enabled>}}} to enable session.
