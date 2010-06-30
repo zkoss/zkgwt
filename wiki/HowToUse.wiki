@@ -10,7 +10,7 @@ An UI for web chat messenger is implemented by ZK GWT.
 
 <wiki:video url="http://www.youtube.com/watch?v=QkY-yrPPNW0"/>
 
-You can see abundant layout is provided in ZK GWT. For example group and detail. These layout components can help to organize information more cleverly. The source code is at [http://code.google.com/p/support/wiki/WikiSyntax Zkapp.java].
+You can see abundant layout is provided in ZK GWT. For example group and detail. These layout components can help to organize information more cleverly. The source code is at [http://code.google.com/p/zkgwt/source/browse/trunk/zkgwtdemo/gwtdemo/src/org/zkoss/gwt/client/Zkapp.java Zkapp.java].
 
 = Usage =
 
@@ -26,7 +26,7 @@ You have to add lines like {{{<script src="zkau/web/js/zk.wpd" type="text/javasc
 
 = Environment Setup =
 
- * Download zkgwt.jar to /war/WEB-INF/lib. Add this file to build path.
+ * Download [http://zkgwt.googlecode.com/files/zkgwt.jar zkgwt.jar] to /war/WEB-INF/lib. Add this file to build path.
  * Add {{{<inherits name='org.zkoss.gwt.zk' />}}} to module XML file like .
  * Copy jars in ZK binary release to /war/WEB-INF/lib.
  * Modify [http://code.google.com/p/zkgwt/source/browse/trunk/zkgwtdemo/gwtdemo/war/WEB-INF/web.xml web.xml], [http://code.google.com/p/zkgwt/source/browse/trunk/zkgwtdemo/gwtdemo/war/WEB-INF/zk.xml zk.xml] to make ZK work while requesting resources of ZK. For example, JavaScript code of ZK widgets. You may reference files in the source repository for detail. 
