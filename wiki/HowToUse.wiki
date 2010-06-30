@@ -21,15 +21,15 @@ For event handling, you may refer to [http://code.google.com/p/zkgwt/source/brow
 
 = Host page =
 
-You have to add lines like {{{<script src="zkau/web/js/zk.wpd" type="text/javascript" language="javascript"></script>}}} to request ZK related resources. Note that, because ZK's JavaScript has been splitted to multiple modules to reduce loading time, and one may depend on another module, so you has better follow the order we provided in peterdemo.html. The best practice is copy the complete include instructions to head part first, and then remove unnecessary lines.
+You have to add lines like {{{<script src="zkau/web/js/zk.wpd" type="text/javascript" language="javascript"></script>}}} to request ZK related resources. Note that, because ZK's JavaScript has been splitted to multiple modules to reduce loading time, and one may depend on another module, so you has better follow the order we provided in [http://code.google.com/p/zkgwt/source/browse/trunk/zkgwtdemo/gwtdemo/war/peterdemo.html peterdemo.html]. The best practice is copy the complete include instructions to head part first, and then remove unnecessary lines.
 
 
 = Environment Setup =
 
  * Download zkgwt.jar to /war/WEB-INF/lib. Add this file to build path.
- * Add {{{<inherits name='org.zkoss.gwt.zk' />}}} to module XML file.
+ * Add {{{<inherits name='org.zkoss.gwt.zk' />}}} to module XML file like .
  * Copy jars in ZK binary release to /war/WEB-INF/lib.
- * Modify web.xml, zk.xml to make ZK work while requesting resources of ZK. For example, JavaScript code of ZK widgets. You may reference files in the source repository for detail. 
+ * Modify [http://code.google.com/p/zkgwt/source/browse/trunk/zkgwtdemo/gwtdemo/war/WEB-INF/web.xml web.xml], [http://code.google.com/p/zkgwt/source/browse/trunk/zkgwtdemo/gwtdemo/war/WEB-INF/zk.xml zk.xml] to make ZK work while requesting resources of ZK. For example, JavaScript code of ZK widgets. You may reference files in the source repository for detail. 
  * Modify appengine-web.xml, add {{{<sessions-enabled>true</sessions-enabled>}}} to enable session.
 
 You should be able to use ZK GWT now. Have a nice time with it.
