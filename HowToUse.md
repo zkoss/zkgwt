@@ -1,0 +1,33 @@
+# Introduction #
+
+This is a preview version only. Thanks to the good architecture of GWT and ZK. We wrote some translation util that scans the JavaScript source code of ZK widgets, and generates wrapper java class following JSNI spec accordingly. And certain core functionality are handwritten to bridge generated wrapper class to GWT.
+
+# Demo #
+
+An UI for web chat messenger is implemented by ZK GWT.
+
+<a href='http://www.youtube.com/watch?feature=player_embedded&v=kKm4aWJFe6A' target='_blank'><img src='http://img.youtube.com/vi/kKm4aWJFe6A/0.jpg' width='425' height=344 /></a>
+
+You can see abundant layout is provided in ZK GWT. For example group and detail. These layout components can help to organize information more cleverly. The source code is at [Zkapp.java](http://code.google.com/p/zkgwt/source/browse/trunk/zkgwtdemo/gwtdemo/src/org/zkoss/gwt/client/Zkapp.java).
+
+# Usage #
+
+You can use ZK widgets just like other GWT widgets. If you found any bug, it's more than welcome to report it. It can help us to polish this product.
+
+For event handling, you may refer to [TestcaseWrapper.java](http://code.google.com/p/zkgwt/source/browse/trunk/zkgwtdemo/gwtdemo/src/org/zkoss/gwt/client/testzk/TestcaseWrapper.java) and [TestcaseCombobox.java](http://code.google.com/p/zkgwt/source/browse/trunk/zkgwtdemo/gwtdemo/src/org/zkoss/gwt/client/testzk/TestcaseCombobox.java). Because ZK widget has encapsulated event related data in data field of event JavaScript object. You may use getJSONString(JavaScriptObject js) to inspect the structure of the data.
+
+
+# Host page #
+
+You have to add lines like `<script src="zkau/web/js/zk.wpd" type="text/javascript" language="javascript"></script>` to request ZK related resources. Note that, because ZK's JavaScript has been splitted to multiple modules to reduce loading time, and one may depend on another module, so you has better follow the order we provided in [peterdemo.html](http://code.google.com/p/zkgwt/source/browse/trunk/zkgwtdemo/gwtdemo/war/peterdemo.html). The best practice is copy the complete include instructions to head part first, and then remove unnecessary lines.
+
+
+# Environment Setup #
+  * New a Google Web Application Project.
+  * Download [zkgwt.jar](http://zkgwt.googlecode.com/files/zkgwt.jar) to /war/WEB-INF/lib. Add this file to build path.
+  * Add `<inherits name='org.zkoss.gwt.zk' />` to module XML file.
+  * Copy jars in ZK binary release to /war/WEB-INF/lib.
+  * Modify [web.xml](http://code.google.com/p/zkgwt/source/browse/trunk/zkgwtdemo/gwtdemo/war/WEB-INF/web.xml), [zk.xml](http://code.google.com/p/zkgwt/source/browse/trunk/zkgwtdemo/gwtdemo/war/WEB-INF/zk.xml) to make ZK work while requesting resources of ZK. For example, JavaScript code of ZK widgets. You may reference files in the source repository for detail.
+  * Modify appengine-web.xml, add `<sessions-enabled>true</sessions-enabled>` to enable session.
+
+You should be able to use ZK GWT now. Have a nice time with it.
